@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Ball_Control",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "89505518-9395-4c64-89e4-305d76711be1",
+            "actions": [
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "0eb8cc43-241a-4c57-b3cf-4f921a885b7b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9c8322cd-2109-4fca-acea-330c0cbae86b",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
